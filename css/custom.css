@@ -1,0 +1,838 @@
+.bgbody{
+    background: url('../img/signupBg3.jpg');
+     background-repeat:no-repeat;
+     background-size:cover; 
+     background-position: center;
+     height: 110%;
+}
+#navbarLogo{
+    margin-left: 60%;
+    width: 125px;
+    height: 40px;
+    cursor: auto;
+}
+
+.frogotPassText{
+  padding-left:20px;
+  padding-right:50px;
+  color:#FFFFFF;
+}
+
+.forgotPageRedirectButton{
+  border: solid;
+  border-color: white;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#navbarTabUl{margin-left: 15%;}
+.errorMsg{
+    color:red;
+    padding-right:10px;
+}
+#navbarAvtar{width:40px;height:40px;border-radius:50%;}
+
+#userWelcomeText{color:white;padding-right:10px;font-size: 15px;}
+
+.form-container{
+    border: 1px solid #000000;
+    padding: 30px 40px;
+    
+    
+    -webkit-box-shadow: -11px 13px 63px 19px rgba(0,0,0,0.75);
+-moz-box-shadow: -11px 13px 63px 19px rgba(0,0,0,0.75);
+box-shadow: -11px 13px 63px 19px rgba(0,0,0,0.75);
+}
+
+.signup-header{
+    
+    text-align: center;
+    color:#ffffff;
+}
+
+.bodycolor{
+  background:#f4f7fc;
+}
+
+.logoIn{
+   
+    color: cornflowerblue;
+}
+
+.padding-top-custom{
+	padding-top: 20px;
+}
+
+.footer-custom{
+    background: #58595b;
+}
+
+.card {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  
+}
+
+.profileCard{width: 230px;}
+#profileCardImg{width:120px;height:120px;border-radius:50%;border:solid;border-color:white;}
+
+.fixed-top{
+  overflow: visible;
+  position: fixed;
+  background: #ddd;
+  
+}
+
+.postBox{
+  border: 1px solid grey;
+  border-radius: 0.25rem;
+  background-color: white;
+  width: 515px;
+}
+
+.postContent{
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: grey;
+  border-top-color: grey;
+  margin-left: 5px;
+  font-family: Impact;
+  font-weight: normal;
+}
+
+.postSubmit{
+  color: white;
+  background-color: green;
+  border-radius: 0.30rem;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-family: Bauhaus;
+  font-weight: bold;
+  border:none;
+  margin-left: 400px
+}
+
+.postAvtar{
+  width:40px;
+  height:40px;
+  border-radius:50%;
+  margin-left: 5px
+}
+
+.postSenderName{
+  font-size: 15px;
+  color: #001a4d;
+}
+.postTime{
+  color: #55552b;
+  font-style: italic;
+  font-size: 13px;
+}
+.postText{
+  margin-left: 20px;
+  width: 480px;
+  font-size: 20px;
+  color: black;
+}
+.postImage{
+  width: 100%;
+}
+.postLike{
+  padding-right: 20px;
+  padding-left: 20px;
+  border-color: #00b359;
+  border-radius: 0.30rem;
+  margin-left: 50px;
+  margin-top: 5px;
+  background-color: #00cc66;
+  font-family: Bauhaus;
+  font-weight: bold;
+  color: white;
+}
+.postComment{
+  margin-top: 5px;
+  border-color: #00b359;
+  border-radius: 0.30rem;
+  margin-left: 30px;
+  width: 250px;
+}
+.relativeResult{
+  
+  border-radius: 0.30rem;
+}
+.relativeRelationValue{
+  margin-left: 20px;
+  font-weight: bold;
+}
+.relativeImage{
+  border:solid;border-width: 2px;border-color:#2a86ff;border-radius:50%;width: 60px;height: 60px;
+}
+.relativeName{
+  padding-left: 10px;
+  color: rgb(178, 34, 34);
+  font-weight: bold;
+}
+.relationTypeLable{
+  width: 100%;
+  border-top:solid;
+  border-width: 1px;
+  border-color:#2a86ff;
+  color: #00004d;
+  font-weight: 500;
+}
+.suggestedProfileMore{
+  width: 30px;
+  height: 30px;
+}
+.addRelativeValue{
+  font-weight: bold;
+  color: #200047;
+}
+
+#dialogOverlay,#chatDialogOverlay{
+      
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #fefefe;
+      opacity: 0.9;
+      z-index: 9999;
+  }
+
+  #dialogBoxContainer,#chatDialogBoxContainer{
+    background-color:#e5e8e7 ;
+    position: fixed;
+    width: 40%;
+    z-index: 9999;
+    top: 150px;
+    left: 30%;
+    border-radius: 5px; 
+    -webkit-box-shadow: -11px 10px 36px 0px rgba(42,67,71,0.4);
+    -moz-box-shadow: -11px 10px 36px 0px rgba(42,67,71,0.4);
+    box-shadow: -11px 10px 36px 0px rgba(42,67,71,0.4);
+
+  }
+
+  #chatDialogBoxContainer{
+    width: 300px;
+  }
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.upload-btn-wrapper img[class=changePro] {
+  position: absolute;
+  left: 70%;
+  top: 0;
+  opacity: 100;
+}
+
+#editProileDiv,
+#updateProfileDetailsDiv,
+.forgotPassBody{
+    background:#ffffff;
+    border:solid;
+    border-color:#d8d8d8;
+    border-width:1px;
+    border-radius:10px;
+}
+#editProfileHeadingName{
+    margin-left:20px;
+    font-weight: 450;
+    text-transform: uppercase;
+    color: dimgray;
+    font-size: 15px;
+}
+#editProfileDisplayRow1,#editProfileDisplayRow2,#editProfileDisplayRow3,#editProfileDisplayRow4,#editProfileDisplayRow5,#editProfileDisplayRow6{
+    border: solid;
+    border-bottom-color:#d8d8d8; 
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    width: 99%;
+    margin-left: 4px;
+    border-width: thin;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#editProfileArrow{
+    width: 20px;
+    height: 20px;
+}
+#editProfileRowLink{
+    text-decoration:none;
+    color:black; 
+}
+#editProfileDivHeading,
+#forgotPassDivHeading{
+    margin-left:40px;
+    font-size:28px;
+}
+#editProfileMainHeading{
+    margin-left:40px;
+    font-size:28px;
+    align-items: center;
+    font-weight: 600;
+}
+#successGreetingMsg1{
+    color: forestgreen;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#successGreetingMsg2{
+    color: cadetblue;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#profileimageSelectedMessage{
+  color: red;
+}
+
+#progressBox {
+  width: 100%;
+  background-color: rgb(204, 195, 195);
+  border: solid;
+  border-width: thin;
+  border-color: green;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+
+  box-shadow: 0 8px 6px -6px black;
+}
+
+#progressBar {
+  height: 13px;
+  background-color: green;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 11px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+#updateProfileDetailsDiv{
+  width: 55%;
+  margin-left: 22%;
+}
+#backButtonArrow{
+  width: 20px;
+  height: 25px;
+  margin-left: 3%;
+  vertical-align:middle;
+}
+
+#updateProfileDivHeading{
+  margin-left: 5%;
+  vertical-align:middle;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#firstLable,
+#lastLable,
+#genderLabel,
+#contactLable,
+#otpLable,
+#oldPasswordLable,
+#newPasswordLable,
+#reNewPasswordLable,
+#dobSelectLable{
+  color: #58595b;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#firstLable,
+#genderLabel,
+#contactLable,
+#dobSelectLable{
+  margin-left: 12%;
+}
+
+#otpLable{
+  margin-left: 25%;
+}
+
+#lastLable,#updateProfileFemaleBox{
+  margin-left: 35%;
+}
+
+#updateProfileFirstNameBox,
+#updateProfileLastNameBox,
+#updateProfileContactBox,
+#updateContactOtpBox,
+#updateProfileOldPassBox,
+#updateProfileNewPassBox,
+#updateProfileReNewPassBox,
+#updateDobDateBox{
+  width: 30%;
+  height: 45px;
+  border: solid;
+  border-bottom-color: rgb(0, 0, 0);
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-width: 1px;
+  border-radius: 7px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  text-align: center;
+  background: transparent;
+  font-weight: bold;
+}
+#updateProfileFirstNameBox,
+#updateProfileMaleBox,
+#updateProfileContactBox,
+#updateContactOtpBox{
+  margin-left: 12%;
+}
+#updateProfileLastNameBox{
+  margin-left: 9%;
+}
+
+#oldPasswordLable,
+#newPasswordLable,
+#reNewPasswordLable{
+  margin-left: 28%;
+}
+
+
+#updateProfileOldPassBox,
+#updateProfileNewPassBox,
+#updateProfileReNewPassBox{
+  height: 30px;
+  width: 50%;
+}
+
+#updateContactOtpBox{
+  width: 15%;
+}
+
+#updateProfileSubmitButton{
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#dobSelectLable{
+  padding-left: 25%;
+}
+#updateDobDateBox{
+  width: 180px;
+  height: 30px;
+  margin-left: 5%;
+}
+
+.familyMemberListCard{
+  background:#8686863a;
+  border:solid;
+  border-color:#26b0ffc0;
+  border-width:2px;
+  border-radius:10px;
+}
+
+.familyProfileHeader{
+  background:rgba(255, 161, 21, 0.815);
+  padding:5px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.familyProfileBody{
+  padding: 5px;
+  background: #3045b848;
+}
+
+.familyProfilePicture{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border: solid;
+  border-width: 2px;
+  border-color: #26b0ffc0;
+}
+
+.familyMemberCardTable{
+  width: 100%;
+}
+
+.familyMemberCardGreenDotImg{
+  width: 12px;
+  height: 12px;
+  border-color: darkgreen;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.familyMemberNameLabel,
+.addMemberLabel{
+  color: rgb(178, 34, 34);
+  font-weight: 700;
+}
+
+#forgotPassEmailLable,
+#chooseMethodLable,
+.enterOTPLable,
+.newPassLable,
+.newRePassLable,
+.passwordChangedSuccessInfoLable{
+  margin-left:40px;
+  font-weight: 450;
+  color: dimgray;
+  font-size: 15px;
+}
+
+#forgotPassErrorMsg{
+  margin-left:40px;
+  font-weight: 450;
+  text-transform: uppercase;
+  color: rgb(255, 0, 0);
+  font-size: 15px;
+}
+
+#forgotPassEmailBox,
+.otpTextBox,
+#newPass,
+#newRePass{
+  height: 40px;
+  border-color: black;
+  margin-left: 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+
+  color:rgb(1, 16, 56);
+  font-weight: bold;
+}
+#forgotPassEmailBox{
+  width: 50%;
+}
+.otpTextBox{
+  width: 20%;
+}
+
+#forgotPassSubmit,
+#getCodeSubmit,
+#verifyOTPSubmit,
+#newPassSubmit,
+#redirectLoginButton{
+  padding: 5px 20px 5px 20px;
+  border-color: rgba(46, 46, 46, 0.89);
+  margin-left: 40px;
+  color: rgb(255,255,255);
+  background-color: rgba(46, 46, 46, 0.89);
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+#forgotPassCancel,
+#otpVerifyCancel,
+#newPassCancel{
+  padding: 5px 10px 5px 10px;
+  border-color: rgb(3, 0, 14);
+  margin-left: 40px;
+  color: rgb(3, 0, 14);
+  background-color: transparent;
+  font-weight: bold;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.chooseMethodRadio{
+  margin-left: 40px;
+}
+.methodNameLable{
+  font-weight: 600;
+  padding-left: 10px;
+}
+.getCodeEmailLable,
+.getCodePhoneLable{
+  margin-left: 65px;
+  font-size: 15px; 
+}
+
+.addMemberButton{
+  cursor: pointer;
+  border: solid #26b0ffc0;
+  width: 130px;
+  height: 130px;
+  background-color: #3045b848;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-top: 5%;
+}
+.addMemberButton:hover{
+  border-color: red;
+}
+.relationTypeSelectionLabel{
+  color: #00004d;
+  font-weight: bold;
+}
+.relationTypeSelectionList{
+  height: 35px;
+  width: 70%;
+  padding-left:15px; 
+  border-radius: 5px;
+  border-top-width:0.5px;
+  border-left-width: 0.5px; 
+}
+.previousMonthDiv,.nextMonthDiv{
+  margin-left: 10%;
+  width: 80%;
+  border:solid rgb(24, 24, 24) 1px;
+  background-color: rgba(128, 128, 128, 0.514);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #440014;
+  border-radius:10px;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  -ms-border-radius:10px;
+  -o-border-radius:10px;
+  cursor: pointer;
+}
+.currentCalendarTable{
+  margin-left: 10%;
+  width: 80%;
+  border: solid rgb(0, 0, 0);
+  border-width: 1px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+.calendarMonthNameDiv{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  height: 50px;
+  background-color: rgba(255, 136, 0, 0.623);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding:1%;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(90, 11, 11);
+}
+
+.calendarDayNameDiv{
+  border: solid rgb(245, 157, 42) 1px;
+  border-radius:5px;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -ms-border-radius:5px;
+  -o-border-radius:5px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: 700;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.sunday{
+  background-color: rgba(235, 39, 39, 0.753);
+}
+.monday{
+  background-color: rgba(64, 144, 190, 0.753);
+}
+.tuesday{
+  background-color: rgba(40, 109, 13, 0.753);
+}
+.wednesday{
+  background-color: rgba(140, 15, 151, 0.753);
+}
+.thursday{
+  background-color: rgba(228, 91, 0, 0.753);
+}
+.friday{
+  background-color: rgba(34, 194, 13, 0.753);
+}
+.saturday{
+  background-color: rgba(105, 49, 23, 0.753);
+}
+
+.calendarDayNonActiveDiv{
+  border: solid rgba(56, 56, 56, 0.233) 0.6px;
+  border-radius:5%;
+  height: 100px;
+  color: rgb(0, 0, 0);
+  background-color: rgba(102, 101, 100, 0.034);
+  padding: 5px;
+  margin:10px;
+  -webkit-border-radius:5%;
+  -moz-border-radius:5%;
+  -ms-border-radius:5%;
+  -o-border-radius:5%;
+}
+
+.calendarDayActiveDiv,.calendarTodayDiv{
+  border-radius:5%;
+  height: 100px;
+  padding: 5px;
+  margin:10px;
+  -webkit-border-radius:5%;
+  -moz-border-radius:5%;
+  -ms-border-radius:5%;
+  -o-border-radius:5%;
+}
+.calendarDayActiveDiv{
+  border: solid rgb(255, 166, 0) 0.6px;
+  background-color: rgba(255, 218, 138, 0.671);
+}
+.calendarTodayDiv{
+  border: solid rgb(0, 63, 3) 0.6px;
+  background-color: rgba(52, 250, 33, 0.651);
+}
+
+.calendarActiveDayLable{
+  font-size: 20px;
+  font-weight: 600;
+}
+.calendarNonActiveDayLable{
+  font-size: 20px;
+  font-weight: 600;
+  color: #535151ab;
+}
+.eventActiveDivclass,.eventNonActiveDivclass{
+  font-size: 15px;
+  font-weight: bold;
+  text-align: right;
+  border:solid #00004d48 0.6px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding-right: 5px;
+}
+.eventActiveDivclass{
+  background-color: #83b1ec;
+  color: rgba(2, 0, 94, 0.945);
+}
+.eventNonActiveDivclass{
+  background-color: rgba(102, 101, 100, 0.185);
+  color: #535151ab;
+}
+.eventActiveDivclass > span,.eventNonActiveDivclass > span{
+  display: inline-block;
+}
+
+#messageDivBody::-webkit-scrollbar { 
+  display: none; 
+}
+
+.messageDiv{
+  width:300px;
+}
+.messageDivHeader{
+  background:#535559;
+  border-top-left-radius:15px;
+  border-top-right-radius:15px;
+}
+.messagePartnerImage{
+  width:50px;
+  height:50px;
+  padding:5px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.messagePartnerName{
+  color:#FFFFFF;font-weight:bold;
+}
+.messageBoxCloseImage,.messageBoxRefreshImage{
+width:30px;
+ height:30px; 
+ padding:5px;
+}
+.messageDivBody{
+  overflow: auto;
+  width: 100%;
+  height: 350px;
+  border:solid grey 0.5px;
+}
+.messageDivFooter{
+  border:solid grey 0.5px;
+  border-top-color: transparent;
+}
+.messageTextBox{
+  border:none;
+  padding:5px;
+  background:transparent;
+}
+.messageSendImageButton{
+  width:30px;
+  height:25px;
+  padding:0px 5px 0px 5px;
+}
+
+#myStatusTextBox{
+  width:60%;
+  height:35px;
+  border-color:#01084b;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding:10px;
+}
